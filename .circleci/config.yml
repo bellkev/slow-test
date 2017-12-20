@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: debian:jessie
+      - image: mongo
     steps:
       - run: sleep 300
       - run: sleep 300
